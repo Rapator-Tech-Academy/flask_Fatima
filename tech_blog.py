@@ -30,4 +30,3 @@ def about():
 if __name__ == '__main__':
     app.run(debug=True)
 
-'<h1>About Page</h1>'
