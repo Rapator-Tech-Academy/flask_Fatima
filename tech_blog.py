@@ -7,8 +7,8 @@ app.config['SECRET_KEY'] = 'd37836b284dedee931e81f275733bd9d'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 db =  SQLAlchemy(app)
 
-class User(db.Model):
-    pass
+from models import User, Post
+
 
 posts = [
     {
